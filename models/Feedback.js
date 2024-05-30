@@ -17,7 +17,7 @@ const feedbackSchema = new mongoose.Schema({
   },
   isAnonymous: {
     type: Boolean,
-    default: false // Default value is false, meaning feedback is not anonymous
+    default: false 
   },
   createdAt: {
     type: Date,
